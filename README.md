@@ -1,5 +1,7 @@
 # Implied NLI
 
+Code & resources for the paper [Entailed Between the Lines: Incorporating Implication into NLI](https://arxiv.org/abs/2501.07719)
+
 ### Dataset Overview
 **Implied NLI**, or **INLI** is a corpus of 10k premises that mirror real-world communication and 40k hypotheses that are implied, explicit, neutral, and contradictory.
 
@@ -8,7 +10,7 @@
 
 On top of the raw data, we also include all prompts used to generate INLI, all human annotations described in the paper, and the outputs of the LLM experiments described in the paper.
 
-For more details on the design and content of the dataset, please see [our paper]()
+For more details on the design and content of the dataset, please see [our paper](https://arxiv.org/abs/2501.07719)
 
 ### Data Format
 Our raw dataset is split into three csv files. 
@@ -27,6 +29,17 @@ In each of these files, one row represents a premise and four corresponding hypo
 * `contradiction`: A hypothesis contradicted by the premise
 
 ## Citation
+```
+@misc{havaldar2025entailedlinesincorporatingimplication,
+      title={Entailed Between the Lines: Incorporating Implication into NLI}, 
+      author={Shreya Havaldar and Hamidreza Alvari and Alex Fabrikant and John Palowitch and Mohammad Javad Hosseini and Senaka Buthpitiya},
+      year={2025},
+      eprint={2501.07719},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2501.07719}, 
+}
+```
 
 ## Contact
 
