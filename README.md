@@ -6,7 +6,7 @@ Code & resources for the paper [Entailed Between the Lines: Incorporating Implic
 **Implied NLI**, or **INLI** is a corpus of 10k premises that mirror real-world communication and 40k hypotheses that are implied, explicit, neutral, and contradictory.
 
 * Number of examples: 40,000
-* Number of labels: 4 (implied entailment entailment, explicit, neutral, contradictory)
+* Number of labels: 4 (implied entailment, explicit entailment, neutral, contradictory)
 
 On top of the raw data, we also include all prompts used to generate INLI, all human annotations described in the paper, and the outputs of the LLM experiments described in the paper.
 
