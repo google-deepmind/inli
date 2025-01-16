@@ -42,7 +42,6 @@ In each of these files, one row represents a premise and four corresponding hypo
 ```
 
 ## Contact
-
 [Shreya Havaldar](https://shreyahavaldar.com/)
 
 ## Disclaimer
